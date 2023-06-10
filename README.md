@@ -29,4 +29,4 @@ To mitigate the risk of exploitation, the following steps can be taken:
 ## References
 
 - [Official GeoServer website](https://geoserver.org/)
-- [Link to CVE-2023-25157 report](insert link to CVE report)
+- [Link to CVE-2023-25157 report](https://twitter.com/parzel2/status/1665726454489915395)
