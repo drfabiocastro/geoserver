@@ -1,6 +1,6 @@
 # CVE-2023-25157 - GeoServer SQL Injection
 
-![GeoServer Logo](geoserver_logo.png)
+![GeoServer](https://underdark.files.wordpress.com/2017/07/geoserver_logo-svg.png)
 
 ## Description
 
@@ -14,7 +14,14 @@ By successfully exploiting this vulnerability, an attacker can:
 
 - Execute arbitrary SQL queries on the GeoServer database.
 - Gain unauthorized access to sensitive information stored in the GeoServer database.
+- 
+## Usage
 
+To run the `geoserver.go` program and interact with the GeoServer API at `https://geoserver.example.com`, use the following command:
+
+```shell
+go run geoserver.go https://geoserver.example.com
+```
 ## Solution
 
 The GeoServer development team has released a fix for the CVE-2023-25157 vulnerability. It is strongly recommended that affected users update their GeoServer installations to version 2.21.4 or upgrade to version 2.22.2. These versions include the necessary patches to address the issue.
