@@ -1,6 +1,6 @@
 # CVE-2023-25157 - GeoServer SQL Injection
 
-![GeoServer](https://underdark.files.wordpress.com/2017/07/geoserver_logo-svg.png)
+![GeoServer](https://underdark.files.wordpress.com/2017/07/geoserver_logo-svg.png
 
 ## Description
 
@@ -14,7 +14,7 @@ By successfully exploiting this vulnerability, an attacker can:
 
 - Execute arbitrary SQL queries on the GeoServer database.
 - Gain unauthorized access to sensitive information stored in the GeoServer database.
-- 
+
 ## Usage
 
 To run the `geoserver.go` program and interact with the GeoServer API at `https://geoserver.example.com`, use the following command:
